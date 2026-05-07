@@ -8,7 +8,7 @@ venv/
 env/
 .venv/
 
-# Environment variables / secrets
+# Environment variables
 .env
 
 # Database files
@@ -41,8 +41,11 @@ dist/
 tmp/
 temp/
 
-# SocketIO/session cache
+# Flask session
 flask_session/
 
-# Optional: generated data
+# Ignore instance folder
+instance/
+
+# Ignore feedback logs
 feedback_log.jsonl
