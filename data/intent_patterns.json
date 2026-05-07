@@ -1,0 +1,597 @@
+{
+  "_comment": "Intent patterns for VaakSetu NLU engine. Keywords per language per intent.",
+  "intents": {
+    "water_supply_complaint": {
+      "keywords": {
+        "kn": [
+          "ನೀರು",
+          "ನಲ್ಲಿ",
+          "ಕೊಳಾಯಿ",
+          "BWSSB",
+          "ಜಲಮಂಡಳಿ",
+          "ನೀರಿಲ್ಲ",
+          "ನೀರು ಬರುತ್ತಿಲ್ಲ",
+          "ಕೊಳಚೆ"
+        ],
+        "hi": [
+          "पानी",
+          "नल",
+          "BWSSB",
+          "जल बोर्ड",
+          "पानी नहीं",
+          "पाइप",
+          "सीवर"
+        ],
+        "en": [
+          "water",
+          "tap",
+          "bwssb",
+          "sewage",
+          "pipeline",
+          "no water",
+          "water supply"
+        ],
+        "manglish": [
+          "neeru illa",
+          "neeru barta illa",
+          "neer illa",
+          "tap dry",
+          "motor on madidru neeru illa",
+          "namma area neeru illa",
+          "water bartilla",
+          "tanker beku",
+          "mane ge neeru banda illa"
+        ]
+      }
+    },
+    "power_outage": {
+      "keywords": {
+        "kn": [
+          "ವಿದ್ಯುತ್",
+          "ಕರೆಂಟ್",
+          "BESCOM",
+          "ಕರೆಂಟ್ ಇಲ್ಲ",
+          "ಟ್ರಾನ್ಸ್ಫಾರ್ಮರ್",
+          "ಕರೆಂಟ್ ಹೋಯಿತು",
+          "ಲೈಟ್"
+        ],
+        "hi": [
+          "बिजली",
+          "करंट",
+          "BESCOM",
+          "बिजली नहीं",
+          "ट्रांसफार्मर",
+          "लाइट"
+        ],
+        "en": [
+          "electricity",
+          "power",
+          "bescom",
+          "blackout",
+          "transformer",
+          "no power",
+          "light"
+        ],
+        "manglish": [
+          "current illa",
+          "current hogi",
+          "light illa",
+          "light hogi",
+          "current bande illa",
+          "namma area current illa",
+          "current cut",
+          "power cut",
+          "current bartilla",
+          "light bartilla",
+          "3 dina current illa",
+          "irulu aytu",
+          "andhakara aytu"
+        ]
+      }
+    },
+    "road_damage": {
+      "keywords": {
+        "kn": [
+          "ರಸ್ತೆ",
+          "ರೋಡ್",
+          "ಗುಂಡಿ",
+          "ಪಾದಚಾರಿ",
+          "ಸೇತುವೆ",
+          "ರಸ್ತೆ ಹಾಳಾಗಿದೆ",
+          "ಹಳ್ಳ"
+        ],
+        "hi": [
+          "सड़क",
+          "रोड",
+          "गड्ढा",
+          "पुल",
+          "फुटपाथ"
+        ],
+        "en": [
+          "road",
+          "pothole",
+          "bridge",
+          "footpath",
+          "pavement",
+          "damaged road"
+        ],
+        "manglish": [
+          "road pothole",
+          "road gudde",
+          "rasta pothole",
+          "namma road karkaashu",
+          "road damage aytu",
+          "road break aytu",
+          "gunta bittu",
+          "car damage aytu road nalli"
+        ]
+      }
+    },
+    "sanitation_issue": {
+      "keywords": {
+        "kn": [
+          "ಕಸ",
+          "ತ್ಯಾಜ್ಯ",
+          "ಶೌಚಾಲಯ",
+          "ಗಟಾರ",
+          "ಸ್ವಚ್ಛತೆ",
+          "ಕಸ ತೆಗೆಯುತ್ತಿಲ್ಲ",
+          "ಕೊಳಚೆ"
+        ],
+        "hi": [
+          "कचरा",
+          "गंदगी",
+          "शौचालय",
+          "नाला",
+          "सफाई",
+          "कूड़ा"
+        ],
+        "en": [
+          "garbage",
+          "waste",
+          "toilet",
+          "drain",
+          "sanitation",
+          "cleanliness"
+        ],
+        "manglish": [
+          "kasa tege illa",
+          "kasa collect madilla",
+          "garbage illa",
+          "namma area clean illa",
+          "kasa thumbi aytu",
+          "drainage block",
+          "sewerge block",
+          "drinage problem"
+        ]
+      }
+    },
+    "property_tax": {
+      "keywords": {
+        "kn": [
+          "ಆಸ್ತಿ ತೆರಿಗೆ",
+          "ಟ್ಯಾಕ್ಸ್",
+          "ಸ್ವತ್ತು",
+          "ಖಾತಾ",
+          "ಪ್ರಾಪರ್ಟಿ",
+          "ಬಾಕಿ"
+        ],
+        "hi": [
+          "संपत्ति कर",
+          "टैक्स",
+          "खाता",
+          "बकाया",
+          "प्रॉपर्टी"
+        ],
+        "en": [
+          "property tax",
+          "khata",
+          "tax",
+          "assessment",
+          "property"
+        ]
+      }
+    },
+    "birth_death_certificate": {
+      "keywords": {
+        "kn": [
+          "ಜನನ ಪ್ರಮಾಣ ಪತ್ರ",
+          "ಮರಣ ಪ್ರಮಾಣ ಪತ್ರ",
+          "ಸರ್ಟಿಫಿಕೇಟ್",
+          "ಜನ್ಮ",
+          "ಮರಣ"
+        ],
+        "hi": [
+          "जन्म प्रमाण पत्र",
+          "मृत्यु प्रमाण पत्र",
+          "सर्टिफिकेट"
+        ],
+        "en": [
+          "birth certificate",
+          "death certificate",
+          "certificate"
+        ]
+      }
+    },
+    "ration_card": {
+      "keywords": {
+        "kn": [
+          "ರೇಷನ್ ಕಾರ್ಡ್",
+          "ಪಡಿತರ",
+          "ಅಕ್ಕಿ",
+          "ಗೋಧಿ",
+          "ಆಹಾರ ಭದ್ರತೆ"
+        ],
+        "hi": [
+          "राशन कार्ड",
+          "राशन",
+          "चावल",
+          "गेहूं",
+          "खाद्य"
+        ],
+        "en": [
+          "ration card",
+          "ration",
+          "rice",
+          "wheat",
+          "food security"
+        ]
+      }
+    },
+    "land_records": {
+      "keywords": {
+        "kn": [
+          "ಭೂಮಿ",
+          "ಜಮೀನು",
+          "ಖಾತಾ",
+          "ಮ್ಯುಟೇಶನ್",
+          "ಹಿಸ್ಸಾ",
+          "ಪಹಣಿ",
+          "ಅಳತೆ"
+        ],
+        "hi": [
+          "जमीन",
+          "भूमि",
+          "खसरा",
+          "खतौनी",
+          "म्यूटेशन",
+          "पहनी"
+        ],
+        "en": [
+          "land",
+          "plot",
+          "mutation",
+          "survey",
+          "pahani",
+          "land records"
+        ]
+      }
+    },
+    "pension_inquiry": {
+      "keywords": {
+        "kn": [
+          "ಪಿಂಚಣಿ",
+          "ವೃದ್ಧಾಪ್ಯ",
+          "ವಿಧವಾ ಪಿಂಚಣಿ",
+          "ಅಂಗವಿಕಲ",
+          "ನೆರವು"
+        ],
+        "hi": [
+          "पेंशन",
+          "वृद्धावस्था",
+          "विधवा पेंशन",
+          "विकलांग",
+          "सहायता"
+        ],
+        "en": [
+          "pension",
+          "old age",
+          "widow",
+          "disability",
+          "social welfare"
+        ]
+      }
+    },
+    "police_complaint": {
+      "keywords": {
+        "kn": [
+          "ಪೊಲೀಸ್",
+          "ದೂರು",
+          "ಚೋರಿ",
+          "ಹಲ್ಲೆ",
+          "FIR",
+          "ಕಿರುಕುಳ"
+        ],
+        "hi": [
+          "पुलिस",
+          "शिकायत",
+          "चोरी",
+          "मारपीट",
+          "एफआईआर",
+          "उत्पीड़न"
+        ],
+        "en": [
+          "police",
+          "theft",
+          "assault",
+          "FIR",
+          "harassment",
+          "crime"
+        ]
+      }
+    },
+    "medical_emergency": {
+      "keywords": {
+        "kn": [
+          "ಆಸ್ಪತ್ರೆ",
+          "ಡಾಕ್ಟರ್",
+          "ಆ್ಯಂಬುಲೆನ್ಸ್",
+          "ಔಷಧ",
+          "ತುರ್ತು ಚಿಕಿತ್ಸೆ"
+        ],
+        "hi": [
+          "अस्पताल",
+          "डॉक्टर",
+          "एम्बुलेंस",
+          "दवाई",
+          "आपातकालीन"
+        ],
+        "en": [
+          "hospital",
+          "doctor",
+          "ambulance",
+          "medicine",
+          "emergency"
+        ],
+        "manglish": [
+          "ambulance beku",
+          "doctor beku",
+          "hospital ge hogbeku",
+          "magu aadru aagiyo",
+          "magu altha ide",
+          "taayi beedtuide",
+          "accident aytu",
+          "blood barthide",
+          "moocha barthilla",
+          "heart attack aagtu",
+          "stroke aagtu"
+        ]
+      }
+    },
+    "general_inquiry": {
+      "keywords": {
+        "kn": [
+          "ಮಾಹಿತಿ",
+          "ತಿಳಿಸಿ",
+          "ಹೇಗೆ",
+          "ಯಾವಾಗ",
+          "ಎಲ್ಲಿ"
+        ],
+        "hi": [
+          "जानकारी",
+          "बताइए",
+          "कैसे",
+          "कब",
+          "कहाँ"
+        ],
+        "en": [
+          "information",
+          "how",
+          "when",
+          "where",
+          "inquiry"
+        ]
+      }
+    },
+    "escalate_complaint": {
+      "_comment": "BUG-36: Added so escalate_complaint is reachable from keyword fallback",
+      "keywords": {
+        "kn": [
+          "ಮೂರನೇ ಬಾರಿ",
+          "ನಾಲ್ಕನೇ ಬಾರಿ",
+          "ಮತ್ತೆ ಮತ್ತೆ",
+          "ಕ್ರಮ ಇಲ್ಲ",
+          "ಯಾರೂ ಕೇಳುತ್ತಿಲ್ಲ",
+          "ಜವಾಬ್ ಇಲ್ಲ",
+          "ಎಷ್ಟು ಬಾರಿ ಹೇಳಬೇಕು"
+        ],
+        "hi": [
+          "तीसरी बार",
+          "चौथी बार",
+          "कोई जवाब नहीं",
+          "कार्रवाई नहीं",
+          "बार बार शिकायत"
+        ],
+        "en": [
+          "complained before",
+          "no action",
+          "again",
+          "third time",
+          "fourth time",
+          "nobody came",
+          "still not resolved",
+          "escalate",
+          "repeat complaint"
+        ],
+        "manglish": [
+          "4 sari complaint kottidini",
+          "nanu complaint kottidini action illa",
+          "idrinda yaavude upyoga illa",
+          "supervisor beku",
+          "manager beku",
+          "saar kelilla",
+          "yaru kelilla",
+          "complaint kotte kade maadle illa",
+          "action thegolla",
+          "kasa tege illa complaint kottidini"
+        ]
+      }
+    },
+    "seek_safety": {
+      "keywords": {
+        "en": [
+          "following me",
+          "being followed",
+          "stranger",
+          "strangers near",
+          "suspicious person",
+          "feel unsafe",
+          "need police",
+          "threatening",
+          "stalking",
+          "scared someone",
+          "very scared",
+          "someone outside",
+          "strange person",
+          "send police",
+          "not safe"
+        ],
+        "kn": [
+          "ಭಯವಾಗ್ತಿದೆ",
+          "ಅಪರಿಚಿತರು",
+          "ರಕ್ಷಣೆ ಬೇಕು",
+          "ಪೊಲೀಸ್ ಬೇಕು",
+          "ಯಾರೋ ಹಿಂಬಾಲಿಸ್ತಿದ್ದಾರೆ",
+          "ಸುರಕ್ಷಿತ ಅನ್ನಿಸ್ತಿಲ್ಲ"
+        ],
+        "hi": [
+          "डर लग रहा है",
+          "कोई पीछा कर रहा है",
+          "संदिग्ध व्यक्ति",
+          "सुरक्षित नहीं",
+          "पुलिस चाहिए",
+          "अजनबी"
+        ],
+        "manglish": [
+          "bhaya aagtha ide",
+          "stranger manedhattra",
+          "police beku",
+          "nanu safe alla",
+          "yaro follow maadtha",
+          "hedrike aagtha"
+        ]
+      }
+    },
+    "fire_emergency": {
+      "keywords": {
+        "en": [
+          "fire",
+          "house on fire",
+          "building on fire",
+          "fire breaking out",
+          "something burning",
+          "smoke everywhere",
+          "call fire brigade",
+          "fire engine",
+          "everything burning"
+        ],
+        "kn": [
+          "ಬೆಂಕಿ",
+          "ಮನೆ ಉರಿಯುತ್ತಿದೆ",
+          "ಬೆಂಕಿ ಹತ್ತಿದೆ",
+          "ಅಗ್ನಿಶಾಮಕ ದಳ"
+        ],
+        "hi": [
+          "आग",
+          "आग लगी है",
+          "घर में आग",
+          "दमकल"
+        ],
+        "manglish": [
+          "benki hattide",
+          "mane urtide",
+          "benki aagide",
+          "fire engine karo"
+        ]
+      }
+    },
+    "street_light": {
+      "keywords": {
+        "en": [
+          "street light",
+          "street lamp",
+          "road light",
+          "light not working",
+          "no street light",
+          "dark road",
+          "streetlight broken",
+          "lamp post"
+        ],
+        "kn": [
+          "ಬೀದಿ ದೀಪ",
+          "ಬೀದಿದೀಪ",
+          "ರಸ್ತೆ ದೀಪ",
+          "ದೀಪ ಕೆಟ್ಟಿದೆ",
+          "ದೀಪ ಇಲ್ಲ"
+        ],
+        "hi": [
+          "स्ट्रीट लाइट",
+          "सड़क की लाइट",
+          "बत्ती नहीं",
+          "लैम्प पोस्ट"
+        ],
+        "manglish": [
+          "beedi deepa",
+          "street light haalu",
+          "light ketta ide",
+          "beedi light illa"
+        ]
+      }
+    }
+  },
+  "intent_department_map": {
+    "water_supply_complaint": "BWSSB",
+    "power_outage": "BESCOM",
+    "road_damage": "BBMP_ROADS",
+    "sanitation_issue": "BBMP_HEALTH",
+    "property_tax": "BBMP_REVENUE",
+    "birth_death_certificate": "BBMP_HEALTH",
+    "ration_card": "FOOD_CIVIL",
+    "land_records": "REVENUE_DEPT",
+    "pension_inquiry": "SOCIAL_WELFARE",
+    "police_complaint": "KSRP",
+    "medical_emergency": "DMER",
+    "general_inquiry": "DPAR",
+    "escalate_complaint": "DPAR",
+    "seek_safety": "KSRP",
+    "fire_emergency": "FIRE_DEPT",
+    "street_light": "BESCOM"
+  },
+  "entity_patterns": {
+    "districts": [
+      "Bengaluru",
+      "Bengaluru Urban",
+      "Bengaluru Rural",
+      "Mysuru",
+      "Hubballi",
+      "Dharwad",
+      "Mangaluru",
+      "Belagavi",
+      "Ballari",
+      "Kalaburagi",
+      "Tumakuru",
+      "Davanagere",
+      "Shivamogga",
+      "Udupi",
+      "Hassan",
+      "Mandya",
+      "Raichur",
+      "Koppal",
+      "Gadag",
+      "Haveri",
+      "Uttara Kannada",
+      "Kodagu",
+      "Chikkamagaluru",
+      "Chitradurga",
+      "Bidar",
+      "Vijayapura",
+      "Bagalkote",
+      "Yadgir",
+      "Chamarajanagar",
+      "Ramanagara",
+      "Kolar",
+      "Chikkaballapura",
+      "Bengaluru North"
+    ]
+  }
+}

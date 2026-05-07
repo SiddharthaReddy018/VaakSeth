@@ -1,0 +1,3402 @@
+[
+  {
+    "id": "syn_001",
+    "language": "kn",
+    "text_original": "1 ವಾರಯಿಂದ ಕಸ ತೆಗೆದಿಲ್ಲ",
+    "text_english": "Garbage not collected for 1 week",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "1 week"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.8,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_002",
+    "language": "kn",
+    "text_original": "ಚರಂಡಿ ನೀರು ರಸ್ತೆಗೆ ಬರ್ತಿದೆ",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.7,
+    "urgency_score": 0.56,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_003",
+    "language": "hi",
+    "text_original": "Fire in the neighborhood",
+    "text_english": "Fire in the neighborhood",
+    "intent": "emergency",
+    "department": "DMER",
+    "entities": {
+      "issue_type": "Fire",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.74,
+    "urgency_score": 0.41,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_004",
+    "language": "en",
+    "text_original": "Streetlight is broken",
+    "text_english": "Streetlight is broken",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Streetlight",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_005",
+    "language": "hi",
+    "text_original": "Fire in the neighborhood",
+    "text_english": "Fire in the neighborhood",
+    "intent": "emergency",
+    "department": "DMER",
+    "entities": {
+      "issue_type": "Fire",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.8,
+    "urgency_score": 0.44,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_006",
+    "language": "kn",
+    "text_original": "ಆರು ತಿಂಗಳಿಂದ ಪಿಂಚಣಿ ಬಂದಿಲ್ಲ",
+    "text_english": "Pension not received for 6 months",
+    "intent": "escalate_complaint",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Pension",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.66,
+    "urgency_score": 0.48,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_007",
+    "language": "hi",
+    "text_original": "Garbage not collected for a month",
+    "text_english": "Garbage not collected for a month",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "a month"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.79,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_008",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಮನೆಯಲ್ಲಿ 3 ಗಂಟೆಯಿಂದ ಕರೆಂಟ್ ಇಲ್ಲ",
+    "text_english": "Power cut since 3 hours",
+    "intent": "report_issue",
+    "department": "BESCOM",
+    "entities": {
+      "issue_type": "Power",
+      "duration": "3 hours"
+    },
+    "emotion": "urgency",
+    "distress_score": 0.3,
+    "urgency_score": 0.77,
+    "anger_score": 0.2,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_009",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಏರಿಯಾದಲ್ಲಿ 1 ವಾರಯಿಂದ ನೀರಿಲ್ಲ",
+    "text_english": "No water in our area for 1 week",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "No",
+      "duration": "1 week"
+    },
+    "emotion": "distress",
+    "distress_score": 0.72,
+    "urgency_score": 0.58,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_010",
+    "language": "kn",
+    "text_original": "ಸ್ಟ್ರೀಟ್ ಲೈಟ್ ಹಾಳಾಗಿದೆ",
+    "text_english": "Streetlight is broken",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Streetlight",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_011",
+    "language": "hi",
+    "text_original": "Pension not received for 6 months",
+    "text_english": "Pension not received for 6 months",
+    "intent": "escalate_complaint",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Pension",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.74,
+    "urgency_score": 0.54,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_012",
+    "language": "te",
+    "text_original": "Pension not received for 6 months",
+    "text_english": "Pension not received for 6 months",
+    "intent": "escalate_complaint",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Pension",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.78,
+    "urgency_score": 0.33,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_013",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.69,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_014",
+    "language": "kn",
+    "text_original": "ಜನನ ಪ್ರಮಾಣ ಪತ್ರಕ್ಕೆ ಯಾವ ದಾಖಲೆ ಬೇಕು?",
+    "text_english": "What documents for birth certificate?",
+    "intent": "seek_information",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "What",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_015",
+    "language": "kn",
+    "text_original": "ಆರು ತಿಂಗಳಿಂದ ಪಿಂಚಣಿ ಬಂದಿಲ್ಲ",
+    "text_english": "Pension not received for 6 months",
+    "intent": "escalate_complaint",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Pension",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.84,
+    "urgency_score": 0.5,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_016",
+    "language": "kn",
+    "text_original": "ಪಕ್ಕದ ಮನೆಯಲ್ಲಿ ಬೆಂಕಿ ಬಿದ್ದಿದೆ",
+    "text_english": "Fire in the neighborhood",
+    "intent": "emergency",
+    "department": "DMER",
+    "entities": {
+      "issue_type": "Fire",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.66,
+    "urgency_score": 0.32,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_017",
+    "language": "hi",
+    "text_original": "Power cut since 10 days",
+    "text_english": "Power cut since 10 days",
+    "intent": "report_issue",
+    "department": "BESCOM",
+    "entities": {
+      "issue_type": "Power",
+      "duration": "10 days"
+    },
+    "emotion": "urgency",
+    "distress_score": 0.3,
+    "urgency_score": 0.78,
+    "anger_score": 0.2,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_018",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಮನೆಯಲ್ಲಿ 10 ದಿನಯಿಂದ ಕರೆಂಟ್ ಇಲ್ಲ",
+    "text_english": "Power cut since 10 days",
+    "intent": "report_issue",
+    "department": "BESCOM",
+    "entities": {
+      "issue_type": "Power",
+      "duration": "10 days"
+    },
+    "emotion": "urgency",
+    "distress_score": 0.3,
+    "urgency_score": 0.87,
+    "anger_score": 0.2,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_019",
+    "language": "hi",
+    "text_original": "Sewage pipe is leaking",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.74,
+    "urgency_score": 0.38,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_020",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.89,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_021",
+    "language": "te",
+    "text_original": "Sewage pipe is leaking",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.89,
+    "urgency_score": 0.48,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_022",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಮನೆಯಲ್ಲಿ 1 ವಾರಯಿಂದ ಕರೆಂಟ್ ಇಲ್ಲ",
+    "text_english": "Power cut since 1 week",
+    "intent": "report_issue",
+    "department": "BESCOM",
+    "entities": {
+      "issue_type": "Power",
+      "duration": "1 week"
+    },
+    "emotion": "urgency",
+    "distress_score": 0.3,
+    "urgency_score": 0.72,
+    "anger_score": 0.2,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_023",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.71,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_024",
+    "language": "kn",
+    "text_original": "ಚರಂಡಿ ನೀರು ರಸ್ತೆಗೆ ಬರ್ತಿದೆ",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.66,
+    "urgency_score": 0.49,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_025",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಏರಿಯಾದಲ್ಲಿ 2 ದಿನಯಿಂದ ನೀರಿಲ್ಲ",
+    "text_english": "No water in our area for 2 days",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "No",
+      "duration": "2 days"
+    },
+    "emotion": "distress",
+    "distress_score": 0.92,
+    "urgency_score": 0.53,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_026",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.64,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_027",
+    "language": "hi",
+    "text_original": "Garbage not collected for a month",
+    "text_english": "Garbage not collected for a month",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "a month"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.89,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_028",
+    "language": "kn",
+    "text_original": "1 ವಾರಯಿಂದ ಕಸ ತೆಗೆದಿಲ್ಲ",
+    "text_english": "Garbage not collected for 1 week",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "1 week"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.74,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_029",
+    "language": "kn",
+    "text_original": "ಆಸ್ತಿ ತೆರಿಗೆ ಹೇಗೆ ಚೆಕ್ ಮಾಡೋದು?",
+    "text_english": "How to check property tax?",
+    "intent": "seek_information",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "How",
+      "duration": null
+    },
+    "emotion": "confusion",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_030",
+    "language": "hi",
+    "text_original": "Severe accident on the highway",
+    "text_english": "Severe accident on the highway",
+    "intent": "emergency",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Severe",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.77,
+    "urgency_score": 0.51,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_031",
+    "language": "te",
+    "text_original": "Garbage not collected for 3 hours",
+    "text_english": "Garbage not collected for 3 hours",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "3 hours"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.61,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_032",
+    "language": "kn",
+    "text_original": "ರೇಷನ್ ಕಾರ್ಡ್ಗೆ ಹೇಗೆ ಅಪ್ಲೈ ಮಾಡಬೇಕು?",
+    "text_english": "How to apply for a ration card?",
+    "intent": "seek_information",
+    "department": "FOOD_CIVIL",
+    "entities": {
+      "issue_type": "How",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_033",
+    "language": "hi",
+    "text_original": "Streetlight is broken",
+    "text_english": "Streetlight is broken",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Streetlight",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_034",
+    "language": "hi",
+    "text_original": "No water in our area for 1 week",
+    "text_english": "No water in our area for 1 week",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "No",
+      "duration": "1 week"
+    },
+    "emotion": "distress",
+    "distress_score": 0.8,
+    "urgency_score": 0.5,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_035",
+    "language": "kn",
+    "text_original": "ಮನೆಗೆ ಕಳ್ಳರು ನುಗ್ಗಿದ್ದಾರೆ",
+    "text_english": "Someone is breaking into the house",
+    "intent": "emergency",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Someone",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.7,
+    "urgency_score": 0.46,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_036",
+    "language": "ta",
+    "text_original": "Garbage not collected for 10 days",
+    "text_english": "Garbage not collected for 10 days",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "10 days"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.87,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_037",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.85,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_038",
+    "language": "en",
+    "text_original": "Pension not received for 6 months",
+    "text_english": "Pension not received for 6 months",
+    "intent": "escalate_complaint",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Pension",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.62,
+    "urgency_score": 0.52,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_039",
+    "language": "en",
+    "text_original": "Garbage not collected for a month",
+    "text_english": "Garbage not collected for a month",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "a month"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.75,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_040",
+    "language": "kn",
+    "text_original": "ರೇಷನ್ ಅಂಗಡಿಯಲ್ಲಿ ಹೆಚ್ಚು ಹಣ ಕೇಳ್ತಿದ್ದಾರೆ",
+    "text_english": "Ration shop is overcharging",
+    "intent": "escalate_complaint",
+    "department": "FOOD_CIVIL",
+    "entities": {
+      "issue_type": "Ration",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.75,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_041",
+    "language": "kn",
+    "text_original": "ಆರು ತಿಂಗಳಿಂದ ಪಿಂಚಣಿ ಬಂದಿಲ್ಲ",
+    "text_english": "Pension not received for 6 months",
+    "intent": "escalate_complaint",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Pension",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.89,
+    "urgency_score": 0.59,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_042",
+    "language": "kn",
+    "text_original": "ರಸ್ತೆಯಲ್ಲಿ ದೊಡ್ಡ ಗುಂಡಿ ಇದೆ",
+    "text_english": "Pothole on the main road",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Pothole",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.77,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_043",
+    "language": "kn",
+    "text_original": "ಮೂರು ಸಲ ಕಂಪ್ಲೇಂಟ್ ಕೊಟ್ಟರೂ ನೀರು ಬಂದಿಲ್ಲ",
+    "text_english": "Complained about water 3 times, no action",
+    "intent": "escalate_complaint",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Complained",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.77,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_044",
+    "language": "en",
+    "text_original": "Garbage not collected for 3 hours",
+    "text_english": "Garbage not collected for 3 hours",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "3 hours"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.89,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_045",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಏರಿಯಾದಲ್ಲಿ a monthಯಿಂದ ನೀರಿಲ್ಲ",
+    "text_english": "No water in our area for a month",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "No",
+      "duration": "a month"
+    },
+    "emotion": "distress",
+    "distress_score": 0.76,
+    "urgency_score": 0.42,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_046",
+    "language": "ta",
+    "text_original": "Pothole on the main road",
+    "text_english": "Pothole on the main road",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Pothole",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.62,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_047",
+    "language": "kn",
+    "text_original": "ರೇಷನ್ ಕಾರ್ಡ್ಗೆ ಹೇಗೆ ಅಪ್ಲೈ ಮಾಡಬೇಕು?",
+    "text_english": "How to apply for a ration card?",
+    "intent": "seek_information",
+    "department": "FOOD_CIVIL",
+    "entities": {
+      "issue_type": "How",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_048",
+    "language": "en",
+    "text_original": "Power cut since 10 days",
+    "text_english": "Power cut since 10 days",
+    "intent": "report_issue",
+    "department": "BESCOM",
+    "entities": {
+      "issue_type": "Power",
+      "duration": "10 days"
+    },
+    "emotion": "urgency",
+    "distress_score": 0.3,
+    "urgency_score": 0.69,
+    "anger_score": 0.2,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_049",
+    "language": "hi",
+    "text_original": "Complained about water 3 times, no action",
+    "text_english": "Complained about water 3 times, no action",
+    "intent": "escalate_complaint",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Complained",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.77,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_050",
+    "language": "kn",
+    "text_original": "ಆಸ್ತಿ ತೆರಿಗೆ ಹೇಗೆ ಚೆಕ್ ಮಾಡೋದು?",
+    "text_english": "How to check property tax?",
+    "intent": "seek_information",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "How",
+      "duration": null
+    },
+    "emotion": "confusion",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_051",
+    "language": "kn",
+    "text_original": "ಮೂರು ಸಲ ಕಂಪ್ಲೇಂಟ್ ಕೊಟ್ಟರೂ ನೀರು ಬಂದಿಲ್ಲ",
+    "text_english": "Complained about water 3 times, no action",
+    "intent": "escalate_complaint",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Complained",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.83,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_052",
+    "language": "kn",
+    "text_original": "ಮೂರು ಸಲ ಕಂಪ್ಲೇಂಟ್ ಕೊಟ್ಟರೂ ನೀರು ಬಂದಿಲ್ಲ",
+    "text_english": "Complained about water 3 times, no action",
+    "intent": "escalate_complaint",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Complained",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.88,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_053",
+    "language": "hi",
+    "text_original": "Streetlight is broken",
+    "text_english": "Streetlight is broken",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Streetlight",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_054",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.81,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_055",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಮನೆಯಲ್ಲಿ 3 ಗಂಟೆಯಿಂದ ಕರೆಂಟ್ ಇಲ್ಲ",
+    "text_english": "Power cut since 3 hours",
+    "intent": "report_issue",
+    "department": "BESCOM",
+    "entities": {
+      "issue_type": "Power",
+      "duration": "3 hours"
+    },
+    "emotion": "urgency",
+    "distress_score": 0.3,
+    "urgency_score": 0.65,
+    "anger_score": 0.2,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_056",
+    "language": "ta",
+    "text_original": "Fire in the neighborhood",
+    "text_english": "Fire in the neighborhood",
+    "intent": "emergency",
+    "department": "DMER",
+    "entities": {
+      "issue_type": "Fire",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.76,
+    "urgency_score": 0.52,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_057",
+    "language": "kn",
+    "text_original": "ಪಕ್ಕದ ಮನೆಯಲ್ಲಿ ಬೆಂಕಿ ಬಿದ್ದಿದೆ",
+    "text_english": "Fire in the neighborhood",
+    "intent": "emergency",
+    "department": "DMER",
+    "entities": {
+      "issue_type": "Fire",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.71,
+    "urgency_score": 0.44,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_058",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಏರಿಯಾದಲ್ಲಿ a monthಯಿಂದ ನೀರಿಲ್ಲ",
+    "text_english": "No water in our area for a month",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "No",
+      "duration": "a month"
+    },
+    "emotion": "distress",
+    "distress_score": 0.73,
+    "urgency_score": 0.46,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_059",
+    "language": "hi",
+    "text_original": "Sewage pipe is leaking",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.87,
+    "urgency_score": 0.51,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_060",
+    "language": "kn",
+    "text_original": "ರಸ್ತೆಯಲ್ಲಿ ದೊಡ್ಡ ಗುಂಡಿ ಇದೆ",
+    "text_english": "Pothole on the main road",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Pothole",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.61,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_061",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಏರಿಯಾದಲ್ಲಿ 1 ವಾರಯಿಂದ ನೀರಿಲ್ಲ",
+    "text_english": "No water in our area for 1 week",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "No",
+      "duration": "1 week"
+    },
+    "emotion": "distress",
+    "distress_score": 0.65,
+    "urgency_score": 0.46,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_062",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.63,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_063",
+    "language": "te",
+    "text_original": "Complained about water 3 times, no action",
+    "text_english": "Complained about water 3 times, no action",
+    "intent": "escalate_complaint",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Complained",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.7,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_064",
+    "language": "kn",
+    "text_original": "ಸ್ಟ್ರೀಟ್ ಲೈಟ್ ಹಾಳಾಗಿದೆ",
+    "text_english": "Streetlight is broken",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Streetlight",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_065",
+    "language": "ta",
+    "text_original": "No water in our area for a month",
+    "text_english": "No water in our area for a month",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "No",
+      "duration": "a month"
+    },
+    "emotion": "distress",
+    "distress_score": 0.9,
+    "urgency_score": 0.38,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_066",
+    "language": "kn",
+    "text_original": "ಸ್ಟ್ರೀಟ್ ಲೈಟ್ ಹಾಳಾಗಿದೆ",
+    "text_english": "Streetlight is broken",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Streetlight",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_067",
+    "language": "kn",
+    "text_original": "ರಸ್ತೆಯಲ್ಲಿ ದೊಡ್ಡ ಗುಂಡಿ ಇದೆ",
+    "text_english": "Pothole on the main road",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Pothole",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.73,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_068",
+    "language": "ta",
+    "text_original": "Ration shop is overcharging",
+    "text_english": "Ration shop is overcharging",
+    "intent": "escalate_complaint",
+    "department": "FOOD_CIVIL",
+    "entities": {
+      "issue_type": "Ration",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.65,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_069",
+    "language": "hi",
+    "text_original": "Garbage not collected for 1 week",
+    "text_english": "Garbage not collected for 1 week",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "1 week"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.78,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_070",
+    "language": "te",
+    "text_original": "Sewage pipe is leaking",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.63,
+    "urgency_score": 0.49,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_071",
+    "language": "ta",
+    "text_original": "Police not filing FIR",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.68,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_072",
+    "language": "kn",
+    "text_original": "ಆರು ತಿಂಗಳಿಂದ ಪಿಂಚಣಿ ಬಂದಿಲ್ಲ",
+    "text_english": "Pension not received for 6 months",
+    "intent": "escalate_complaint",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Pension",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.81,
+    "urgency_score": 0.38,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_073",
+    "language": "te",
+    "text_original": "What documents for birth certificate?",
+    "text_english": "What documents for birth certificate?",
+    "intent": "seek_information",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "What",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_074",
+    "language": "kn",
+    "text_original": "ರೇಷನ್ ಕಾರ್ಡ್ಗೆ ಹೇಗೆ ಅಪ್ಲೈ ಮಾಡಬೇಕು?",
+    "text_english": "How to apply for a ration card?",
+    "intent": "seek_information",
+    "department": "FOOD_CIVIL",
+    "entities": {
+      "issue_type": "How",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_075",
+    "language": "en",
+    "text_original": "Garbage not collected for 1 week",
+    "text_english": "Garbage not collected for 1 week",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "1 week"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.81,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_076",
+    "language": "kn",
+    "text_original": "ಪಕ್ಕದ ಮನೆಯಲ್ಲಿ ಬೆಂಕಿ ಬಿದ್ದಿದೆ",
+    "text_english": "Fire in the neighborhood",
+    "intent": "emergency",
+    "department": "DMER",
+    "entities": {
+      "issue_type": "Fire",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.75,
+    "urgency_score": 0.43,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_077",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಏರಿಯಾದಲ್ಲಿ 10 ದಿನಯಿಂದ ನೀರಿಲ್ಲ",
+    "text_english": "No water in our area for 10 days",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "No",
+      "duration": "10 days"
+    },
+    "emotion": "distress",
+    "distress_score": 0.84,
+    "urgency_score": 0.48,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_078",
+    "language": "kn",
+    "text_original": "ರೈತರ ಪಿಂಚಣಿ ಬಗ್ಗೆ ಮಾಹಿತಿ ಬೇಕು",
+    "text_english": "Details about farmer pension",
+    "intent": "seek_information",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Details",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_079",
+    "language": "kn",
+    "text_original": "ಆಸ್ತಿ ತೆರಿಗೆ ಹೇಗೆ ಚೆಕ್ ಮಾಡೋದು?",
+    "text_english": "How to check property tax?",
+    "intent": "seek_information",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "How",
+      "duration": null
+    },
+    "emotion": "confusion",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_080",
+    "language": "kn",
+    "text_original": "ಮೂರು ಸಲ ಕಂಪ್ಲೇಂಟ್ ಕೊಟ್ಟರೂ ನೀರು ಬಂದಿಲ್ಲ",
+    "text_english": "Complained about water 3 times, no action",
+    "intent": "escalate_complaint",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Complained",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.69,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_081",
+    "language": "kn",
+    "text_original": "ಆರು ತಿಂಗಳಿಂದ ಪಿಂಚಣಿ ಬಂದಿಲ್ಲ",
+    "text_english": "Pension not received for 6 months",
+    "intent": "escalate_complaint",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Pension",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.79,
+    "urgency_score": 0.6,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_082",
+    "language": "en",
+    "text_original": "Pension not received for 6 months",
+    "text_english": "Pension not received for 6 months",
+    "intent": "escalate_complaint",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Pension",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.71,
+    "urgency_score": 0.44,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_083",
+    "language": "kn",
+    "text_original": "ಸ್ಟ್ರೀಟ್ ಲೈಟ್ ಹಾಳಾಗಿದೆ",
+    "text_english": "Streetlight is broken",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Streetlight",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_084",
+    "language": "ta",
+    "text_original": "Pothole on the main road",
+    "text_english": "Pothole on the main road",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Pothole",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.66,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_085",
+    "language": "hi",
+    "text_original": "What documents for birth certificate?",
+    "text_english": "What documents for birth certificate?",
+    "intent": "seek_information",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "What",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_086",
+    "language": "kn",
+    "text_original": "ಮೂರು ಸಲ ಕಂಪ್ಲೇಂಟ್ ಕೊಟ್ಟರೂ ನೀರು ಬಂದಿಲ್ಲ",
+    "text_english": "Complained about water 3 times, no action",
+    "intent": "escalate_complaint",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Complained",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.8,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_087",
+    "language": "kn",
+    "text_original": "2 ದಿನಯಿಂದ ಕಸ ತೆಗೆದಿಲ್ಲ",
+    "text_english": "Garbage not collected for 2 days",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "2 days"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.79,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_088",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಮನೆಯಲ್ಲಿ 2 ದಿನಯಿಂದ ಕರೆಂಟ್ ಇಲ್ಲ",
+    "text_english": "Power cut since 2 days",
+    "intent": "report_issue",
+    "department": "BESCOM",
+    "entities": {
+      "issue_type": "Power",
+      "duration": "2 days"
+    },
+    "emotion": "urgency",
+    "distress_score": 0.3,
+    "urgency_score": 0.6,
+    "anger_score": 0.2,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_089",
+    "language": "kn",
+    "text_original": "ಸ್ಟ್ರೀಟ್ ಲೈಟ್ ಹಾಳಾಗಿದೆ",
+    "text_english": "Streetlight is broken",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Streetlight",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_090",
+    "language": "kn",
+    "text_original": "ರಸ್ತೆಯಲ್ಲಿ ದೊಡ್ಡ ಗುಂಡಿ ಇದೆ",
+    "text_english": "Pothole on the main road",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Pothole",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.77,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_091",
+    "language": "hi",
+    "text_original": "Garbage not collected for 10 days",
+    "text_english": "Garbage not collected for 10 days",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "10 days"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.64,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_092",
+    "language": "en",
+    "text_original": "Sewage pipe is leaking",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.62,
+    "urgency_score": 0.34,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_093",
+    "language": "kn",
+    "text_original": "ರೈತರ ಪಿಂಚಣಿ ಬಗ್ಗೆ ಮಾಹಿತಿ ಬೇಕು",
+    "text_english": "Details about farmer pension",
+    "intent": "seek_information",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Details",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_094",
+    "language": "te",
+    "text_original": "What documents for birth certificate?",
+    "text_english": "What documents for birth certificate?",
+    "intent": "seek_information",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "What",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_095",
+    "language": "kn",
+    "text_original": "ರೇಷನ್ ಅಂಗಡಿಯಲ್ಲಿ ಹೆಚ್ಚು ಹಣ ಕೇಳ್ತಿದ್ದಾರೆ",
+    "text_english": "Ration shop is overcharging",
+    "intent": "escalate_complaint",
+    "department": "FOOD_CIVIL",
+    "entities": {
+      "issue_type": "Ration",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.62,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_096",
+    "language": "hi",
+    "text_original": "Details about farmer pension",
+    "text_english": "Details about farmer pension",
+    "intent": "seek_information",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Details",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_097",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.74,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_098",
+    "language": "kn",
+    "text_original": "10 ದಿನಯಿಂದ ಕಸ ತೆಗೆದಿಲ್ಲ",
+    "text_english": "Garbage not collected for 10 days",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "10 days"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.84,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_099",
+    "language": "kn",
+    "text_original": "ರೇಷನ್ ಕಾರ್ಡ್ಗೆ ಹೇಗೆ ಅಪ್ಲೈ ಮಾಡಬೇಕು?",
+    "text_english": "How to apply for a ration card?",
+    "intent": "seek_information",
+    "department": "FOOD_CIVIL",
+    "entities": {
+      "issue_type": "How",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_100",
+    "language": "en",
+    "text_original": "What documents for birth certificate?",
+    "text_english": "What documents for birth certificate?",
+    "intent": "seek_information",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "What",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_101",
+    "language": "hi",
+    "text_original": "How to check property tax?",
+    "text_english": "How to check property tax?",
+    "intent": "seek_information",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "How",
+      "duration": null
+    },
+    "emotion": "confusion",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_102",
+    "language": "hi",
+    "text_original": "Police not filing FIR",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.65,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_103",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಮನೆಯಲ್ಲಿ 3 ಗಂಟೆಯಿಂದ ಕರೆಂಟ್ ಇಲ್ಲ",
+    "text_english": "Power cut since 3 hours",
+    "intent": "report_issue",
+    "department": "BESCOM",
+    "entities": {
+      "issue_type": "Power",
+      "duration": "3 hours"
+    },
+    "emotion": "urgency",
+    "distress_score": 0.3,
+    "urgency_score": 0.63,
+    "anger_score": 0.2,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_104",
+    "language": "en",
+    "text_original": "Pension not received for 6 months",
+    "text_english": "Pension not received for 6 months",
+    "intent": "escalate_complaint",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Pension",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.68,
+    "urgency_score": 0.32,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_105",
+    "language": "hi",
+    "text_original": "Garbage not collected for a month",
+    "text_english": "Garbage not collected for a month",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "a month"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.71,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_106",
+    "language": "kn",
+    "text_original": "ಚರಂಡಿ ನೀರು ರಸ್ತೆಗೆ ಬರ್ತಿದೆ",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.93,
+    "urgency_score": 0.32,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_107",
+    "language": "ta",
+    "text_original": "No water in our area for 3 hours",
+    "text_english": "No water in our area for 3 hours",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "No",
+      "duration": "3 hours"
+    },
+    "emotion": "distress",
+    "distress_score": 0.66,
+    "urgency_score": 0.58,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_108",
+    "language": "hi",
+    "text_original": "Police not filing FIR",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.88,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_109",
+    "language": "hi",
+    "text_original": "How to apply for a ration card?",
+    "text_english": "How to apply for a ration card?",
+    "intent": "seek_information",
+    "department": "FOOD_CIVIL",
+    "entities": {
+      "issue_type": "How",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_110",
+    "language": "te",
+    "text_original": "Power cut since 10 days",
+    "text_english": "Power cut since 10 days",
+    "intent": "report_issue",
+    "department": "BESCOM",
+    "entities": {
+      "issue_type": "Power",
+      "duration": "10 days"
+    },
+    "emotion": "urgency",
+    "distress_score": 0.3,
+    "urgency_score": 0.7,
+    "anger_score": 0.2,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_111",
+    "language": "kn",
+    "text_original": "10 ದಿನಯಿಂದ ಕಸ ತೆಗೆದಿಲ್ಲ",
+    "text_english": "Garbage not collected for 10 days",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "10 days"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.89,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_112",
+    "language": "hi",
+    "text_original": "Ration shop is overcharging",
+    "text_english": "Ration shop is overcharging",
+    "intent": "escalate_complaint",
+    "department": "FOOD_CIVIL",
+    "entities": {
+      "issue_type": "Ration",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.76,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_113",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.87,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_114",
+    "language": "te",
+    "text_original": "No water in our area for 1 week",
+    "text_english": "No water in our area for 1 week",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "No",
+      "duration": "1 week"
+    },
+    "emotion": "distress",
+    "distress_score": 0.85,
+    "urgency_score": 0.32,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_115",
+    "language": "kn",
+    "text_original": "ಸ್ಟ್ರೀಟ್ ಲೈಟ್ ಹಾಳಾಗಿದೆ",
+    "text_english": "Streetlight is broken",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Streetlight",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_116",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಮನೆಯಲ್ಲಿ 10 ದಿನಯಿಂದ ಕರೆಂಟ್ ಇಲ್ಲ",
+    "text_english": "Power cut since 10 days",
+    "intent": "report_issue",
+    "department": "BESCOM",
+    "entities": {
+      "issue_type": "Power",
+      "duration": "10 days"
+    },
+    "emotion": "urgency",
+    "distress_score": 0.3,
+    "urgency_score": 0.89,
+    "anger_score": 0.2,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_117",
+    "language": "kn",
+    "text_original": "ರಸ್ತೆಯಲ್ಲಿ ದೊಡ್ಡ ಗುಂಡಿ ಇದೆ",
+    "text_english": "Pothole on the main road",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Pothole",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.76,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_118",
+    "language": "ta",
+    "text_original": "Police not filing FIR",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.81,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_119",
+    "language": "te",
+    "text_original": "Sewage pipe is leaking",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.85,
+    "urgency_score": 0.41,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_120",
+    "language": "kn",
+    "text_original": "ರೈತರ ಪಿಂಚಣಿ ಬಗ್ಗೆ ಮಾಹಿತಿ ಬೇಕು",
+    "text_english": "Details about farmer pension",
+    "intent": "seek_information",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Details",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_121",
+    "language": "hi",
+    "text_original": "Sewage pipe is leaking",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.68,
+    "urgency_score": 0.3,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_122",
+    "language": "kn",
+    "text_original": "ರೇಷನ್ ಅಂಗಡಿಯಲ್ಲಿ ಹೆಚ್ಚು ಹಣ ಕೇಳ್ತಿದ್ದಾರೆ",
+    "text_english": "Ration shop is overcharging",
+    "intent": "escalate_complaint",
+    "department": "FOOD_CIVIL",
+    "entities": {
+      "issue_type": "Ration",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.78,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_123",
+    "language": "en",
+    "text_original": "Complained about water 3 times, no action",
+    "text_english": "Complained about water 3 times, no action",
+    "intent": "escalate_complaint",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Complained",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.89,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_124",
+    "language": "hi",
+    "text_original": "Streetlight is broken",
+    "text_english": "Streetlight is broken",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Streetlight",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_125",
+    "language": "en",
+    "text_original": "Ration shop is overcharging",
+    "text_english": "Ration shop is overcharging",
+    "intent": "escalate_complaint",
+    "department": "FOOD_CIVIL",
+    "entities": {
+      "issue_type": "Ration",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.86,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_126",
+    "language": "ta",
+    "text_original": "Pothole on the main road",
+    "text_english": "Pothole on the main road",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Pothole",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.72,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_127",
+    "language": "hi",
+    "text_original": "Streetlight is broken",
+    "text_english": "Streetlight is broken",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Streetlight",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_128",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಮನೆಯಲ್ಲಿ a monthಯಿಂದ ಕರೆಂಟ್ ಇಲ್ಲ",
+    "text_english": "Power cut since a month",
+    "intent": "report_issue",
+    "department": "BESCOM",
+    "entities": {
+      "issue_type": "Power",
+      "duration": "a month"
+    },
+    "emotion": "urgency",
+    "distress_score": 0.3,
+    "urgency_score": 0.61,
+    "anger_score": 0.2,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_129",
+    "language": "kn",
+    "text_original": "ರೇಷನ್ ಅಂಗಡಿಯಲ್ಲಿ ಹೆಚ್ಚು ಹಣ ಕೇಳ್ತಿದ್ದಾರೆ",
+    "text_english": "Ration shop is overcharging",
+    "intent": "escalate_complaint",
+    "department": "FOOD_CIVIL",
+    "entities": {
+      "issue_type": "Ration",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.64,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_130",
+    "language": "kn",
+    "text_original": "ರೈತರ ಪಿಂಚಣಿ ಬಗ್ಗೆ ಮಾಹಿತಿ ಬೇಕು",
+    "text_english": "Details about farmer pension",
+    "intent": "seek_information",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Details",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_131",
+    "language": "kn",
+    "text_original": "ರಸ್ತೆಯಲ್ಲಿ ದೊಡ್ಡ ಗುಂಡಿ ಇದೆ",
+    "text_english": "Pothole on the main road",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Pothole",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.66,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_132",
+    "language": "te",
+    "text_original": "Power cut since 10 days",
+    "text_english": "Power cut since 10 days",
+    "intent": "report_issue",
+    "department": "BESCOM",
+    "entities": {
+      "issue_type": "Power",
+      "duration": "10 days"
+    },
+    "emotion": "urgency",
+    "distress_score": 0.3,
+    "urgency_score": 0.85,
+    "anger_score": 0.2,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_133",
+    "language": "te",
+    "text_original": "Ration shop is overcharging",
+    "text_english": "Ration shop is overcharging",
+    "intent": "escalate_complaint",
+    "department": "FOOD_CIVIL",
+    "entities": {
+      "issue_type": "Ration",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.6,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_134",
+    "language": "hi",
+    "text_original": "Sewage pipe is leaking",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.75,
+    "urgency_score": 0.52,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_135",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಏರಿಯಾದಲ್ಲಿ 2 ದಿನಯಿಂದ ನೀರಿಲ್ಲ",
+    "text_english": "No water in our area for 2 days",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "No",
+      "duration": "2 days"
+    },
+    "emotion": "distress",
+    "distress_score": 0.61,
+    "urgency_score": 0.46,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_136",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಏರಿಯಾದಲ್ಲಿ 2 ದಿನಯಿಂದ ನೀರಿಲ್ಲ",
+    "text_english": "No water in our area for 2 days",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "No",
+      "duration": "2 days"
+    },
+    "emotion": "distress",
+    "distress_score": 0.66,
+    "urgency_score": 0.48,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_137",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಮನೆಯಲ್ಲಿ 3 ಗಂಟೆಯಿಂದ ಕರೆಂಟ್ ಇಲ್ಲ",
+    "text_english": "Power cut since 3 hours",
+    "intent": "report_issue",
+    "department": "BESCOM",
+    "entities": {
+      "issue_type": "Power",
+      "duration": "3 hours"
+    },
+    "emotion": "urgency",
+    "distress_score": 0.3,
+    "urgency_score": 0.61,
+    "anger_score": 0.2,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_138",
+    "language": "hi",
+    "text_original": "No water in our area for 2 days",
+    "text_english": "No water in our area for 2 days",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "No",
+      "duration": "2 days"
+    },
+    "emotion": "distress",
+    "distress_score": 0.81,
+    "urgency_score": 0.53,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_139",
+    "language": "kn",
+    "text_original": "ಸ್ಟ್ರೀಟ್ ಲೈಟ್ ಹಾಳಾಗಿದೆ",
+    "text_english": "Streetlight is broken",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Streetlight",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_140",
+    "language": "kn",
+    "text_original": "ಮೂರು ಸಲ ಕಂಪ್ಲೇಂಟ್ ಕೊಟ್ಟರೂ ನೀರು ಬಂದಿಲ್ಲ",
+    "text_english": "Complained about water 3 times, no action",
+    "intent": "escalate_complaint",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Complained",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.71,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_141",
+    "language": "kn",
+    "text_original": "ಚರಂಡಿ ನೀರು ರಸ್ತೆಗೆ ಬರ್ತಿದೆ",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.82,
+    "urgency_score": 0.47,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_142",
+    "language": "kn",
+    "text_original": "ಜನನ ಪ್ರಮಾಣ ಪತ್ರಕ್ಕೆ ಯಾವ ದಾಖಲೆ ಬೇಕು?",
+    "text_english": "What documents for birth certificate?",
+    "intent": "seek_information",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "What",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_143",
+    "language": "kn",
+    "text_original": "ಮನೆಗೆ ಕಳ್ಳರು ನುಗ್ಗಿದ್ದಾರೆ",
+    "text_english": "Someone is breaking into the house",
+    "intent": "emergency",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Someone",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.94,
+    "urgency_score": 0.53,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_144",
+    "language": "hi",
+    "text_original": "Someone is breaking into the house",
+    "text_english": "Someone is breaking into the house",
+    "intent": "emergency",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Someone",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.8,
+    "urgency_score": 0.53,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_145",
+    "language": "hi",
+    "text_original": "Police not filing FIR",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.67,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_146",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.77,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_147",
+    "language": "kn",
+    "text_original": "ರಸ್ತೆಯಲ್ಲಿ ದೊಡ್ಡ ಗುಂಡಿ ಇದೆ",
+    "text_english": "Pothole on the main road",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Pothole",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.73,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_148",
+    "language": "ta",
+    "text_original": "No water in our area for 10 days",
+    "text_english": "No water in our area for 10 days",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "No",
+      "duration": "10 days"
+    },
+    "emotion": "distress",
+    "distress_score": 0.64,
+    "urgency_score": 0.33,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_149",
+    "language": "en",
+    "text_original": "Fire in the neighborhood",
+    "text_english": "Fire in the neighborhood",
+    "intent": "emergency",
+    "department": "DMER",
+    "entities": {
+      "issue_type": "Fire",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.76,
+    "urgency_score": 0.31,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_150",
+    "language": "kn",
+    "text_original": "ಚರಂಡಿ ನೀರು ರಸ್ತೆಗೆ ಬರ್ತಿದೆ",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.61,
+    "urgency_score": 0.53,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_151",
+    "language": "kn",
+    "text_original": "2 ದಿನಯಿಂದ ಕಸ ತೆಗೆದಿಲ್ಲ",
+    "text_english": "Garbage not collected for 2 days",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "2 days"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.73,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_152",
+    "language": "ta",
+    "text_original": "Pension not received for 6 months",
+    "text_english": "Pension not received for 6 months",
+    "intent": "escalate_complaint",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Pension",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.91,
+    "urgency_score": 0.57,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_153",
+    "language": "kn",
+    "text_original": "ರಸ್ತೆಯಲ್ಲಿ ದೊಡ್ಡ ಗುಂಡಿ ಇದೆ",
+    "text_english": "Pothole on the main road",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Pothole",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.63,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_154",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.86,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_155",
+    "language": "hi",
+    "text_original": "Pension not received for 6 months",
+    "text_english": "Pension not received for 6 months",
+    "intent": "escalate_complaint",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Pension",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.69,
+    "urgency_score": 0.38,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_156",
+    "language": "kn",
+    "text_original": "ಚರಂಡಿ ನೀರು ರಸ್ತೆಗೆ ಬರ್ತಿದೆ",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.89,
+    "urgency_score": 0.5,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_157",
+    "language": "hi",
+    "text_original": "Pension not received for 6 months",
+    "text_english": "Pension not received for 6 months",
+    "intent": "escalate_complaint",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Pension",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.83,
+    "urgency_score": 0.6,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_158",
+    "language": "hi",
+    "text_original": "How to apply for a ration card?",
+    "text_english": "How to apply for a ration card?",
+    "intent": "seek_information",
+    "department": "FOOD_CIVIL",
+    "entities": {
+      "issue_type": "How",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_159",
+    "language": "hi",
+    "text_original": "No water in our area for 10 days",
+    "text_english": "No water in our area for 10 days",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "No",
+      "duration": "10 days"
+    },
+    "emotion": "distress",
+    "distress_score": 0.64,
+    "urgency_score": 0.51,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_160",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.9,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_161",
+    "language": "kn",
+    "text_original": "ರಸ್ತೆಯಲ್ಲಿ ದೊಡ್ಡ ಗುಂಡಿ ಇದೆ",
+    "text_english": "Pothole on the main road",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Pothole",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.85,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_162",
+    "language": "kn",
+    "text_original": "ರಸ್ತೆಯಲ್ಲಿ ದೊಡ್ಡ ಗುಂಡಿ ಇದೆ",
+    "text_english": "Pothole on the main road",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Pothole",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.78,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_163",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.63,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_164",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಮನೆಯಲ್ಲಿ 2 ದಿನಯಿಂದ ಕರೆಂಟ್ ಇಲ್ಲ",
+    "text_english": "Power cut since 2 days",
+    "intent": "report_issue",
+    "department": "BESCOM",
+    "entities": {
+      "issue_type": "Power",
+      "duration": "2 days"
+    },
+    "emotion": "urgency",
+    "distress_score": 0.3,
+    "urgency_score": 0.89,
+    "anger_score": 0.2,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_165",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.64,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_166",
+    "language": "kn",
+    "text_original": "ಚರಂಡಿ ನೀರು ರಸ್ತೆಗೆ ಬರ್ತಿದೆ",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.66,
+    "urgency_score": 0.55,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_167",
+    "language": "kn",
+    "text_original": "ರೈತರ ಪಿಂಚಣಿ ಬಗ್ಗೆ ಮಾಹಿತಿ ಬೇಕು",
+    "text_english": "Details about farmer pension",
+    "intent": "seek_information",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Details",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_168",
+    "language": "kn",
+    "text_original": "ರಸ್ತೆಯಲ್ಲಿ ದೊಡ್ಡ ಗುಂಡಿ ಇದೆ",
+    "text_english": "Pothole on the main road",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Pothole",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.63,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_169",
+    "language": "kn",
+    "text_original": "ಮೂರು ಸಲ ಕಂಪ್ಲೇಂಟ್ ಕೊಟ್ಟರೂ ನೀರು ಬಂದಿಲ್ಲ",
+    "text_english": "Complained about water 3 times, no action",
+    "intent": "escalate_complaint",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Complained",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.81,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_170",
+    "language": "kn",
+    "text_original": "1 ವಾರಯಿಂದ ಕಸ ತೆಗೆದಿಲ್ಲ",
+    "text_english": "Garbage not collected for 1 week",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "1 week"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.83,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_171",
+    "language": "te",
+    "text_original": "Garbage not collected for 10 days",
+    "text_english": "Garbage not collected for 10 days",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "10 days"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.72,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_172",
+    "language": "kn",
+    "text_original": "1 ವಾರಯಿಂದ ಕಸ ತೆಗೆದಿಲ್ಲ",
+    "text_english": "Garbage not collected for 1 week",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "1 week"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.69,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_173",
+    "language": "kn",
+    "text_original": "ರೈತರ ಪಿಂಚಣಿ ಬಗ್ಗೆ ಮಾಹಿತಿ ಬೇಕು",
+    "text_english": "Details about farmer pension",
+    "intent": "seek_information",
+    "department": "SOCIAL_WELFARE",
+    "entities": {
+      "issue_type": "Details",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_174",
+    "language": "kn",
+    "text_original": "ಚರಂಡಿ ನೀರು ರಸ್ತೆಗೆ ಬರ್ತಿದೆ",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.68,
+    "urgency_score": 0.34,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_175",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.9,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_176",
+    "language": "kn",
+    "text_original": "ಜನನ ಪ್ರಮಾಣ ಪತ್ರಕ್ಕೆ ಯಾವ ದಾಖಲೆ ಬೇಕು?",
+    "text_english": "What documents for birth certificate?",
+    "intent": "seek_information",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "What",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_177",
+    "language": "ta",
+    "text_original": "What documents for birth certificate?",
+    "text_english": "What documents for birth certificate?",
+    "intent": "seek_information",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "What",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_178",
+    "language": "kn",
+    "text_original": "ಸ್ಟ್ರೀಟ್ ಲೈಟ್ ಹಾಳಾಗಿದೆ",
+    "text_english": "Streetlight is broken",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Streetlight",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_179",
+    "language": "kn",
+    "text_original": "ರಸ್ತೆಯಲ್ಲಿ ದೊಡ್ಡ ಗುಂಡಿ ಇದೆ",
+    "text_english": "Pothole on the main road",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Pothole",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.65,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_180",
+    "language": "kn",
+    "text_original": "a monthಯಿಂದ ಕಸ ತೆಗೆದಿಲ್ಲ",
+    "text_english": "Garbage not collected for a month",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "a month"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.73,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_181",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.67,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_182",
+    "language": "hi",
+    "text_original": "Power cut since 2 days",
+    "text_english": "Power cut since 2 days",
+    "intent": "report_issue",
+    "department": "BESCOM",
+    "entities": {
+      "issue_type": "Power",
+      "duration": "2 days"
+    },
+    "emotion": "urgency",
+    "distress_score": 0.3,
+    "urgency_score": 0.88,
+    "anger_score": 0.2,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_183",
+    "language": "kn",
+    "text_original": "ಪೊಲೀಸರು FIR ತಗೊಳ್ತಾ ಇಲ್ಲ",
+    "text_english": "Police not filing FIR",
+    "intent": "escalate_complaint",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Police",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.83,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_184",
+    "language": "kn",
+    "text_original": "ಚರಂಡಿ ನೀರು ರಸ್ತೆಗೆ ಬರ್ತಿದೆ",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.79,
+    "urgency_score": 0.5,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_185",
+    "language": "en",
+    "text_original": "Complained about water 3 times, no action",
+    "text_english": "Complained about water 3 times, no action",
+    "intent": "escalate_complaint",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Complained",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.78,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_186",
+    "language": "kn",
+    "text_original": "ಜನನ ಪ್ರಮಾಣ ಪತ್ರಕ್ಕೆ ಯಾವ ದಾಖಲೆ ಬೇಕು?",
+    "text_english": "What documents for birth certificate?",
+    "intent": "seek_information",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "What",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_187",
+    "language": "ta",
+    "text_original": "Ration shop is overcharging",
+    "text_english": "Ration shop is overcharging",
+    "intent": "escalate_complaint",
+    "department": "FOOD_CIVIL",
+    "entities": {
+      "issue_type": "Ration",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.86,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_188",
+    "language": "kn",
+    "text_original": "ಆಸ್ತಿ ತೆರಿಗೆ ಹೇಗೆ ಚೆಕ್ ಮಾಡೋದು?",
+    "text_english": "How to check property tax?",
+    "intent": "seek_information",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "How",
+      "duration": null
+    },
+    "emotion": "confusion",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_189",
+    "language": "kn",
+    "text_original": "ಚರಂಡಿ ನೀರು ರಸ್ತೆಗೆ ಬರ್ತಿದೆ",
+    "text_english": "Sewage pipe is leaking",
+    "intent": "report_issue",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Sewage",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.82,
+    "urgency_score": 0.3,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_190",
+    "language": "kn",
+    "text_original": "ಹೈವೇನಲ್ಲಿ ದೊಡ್ಡ ಆಕ್ಸಿಡೆಂಟ್ ಆಗಿದೆ",
+    "text_english": "Severe accident on the highway",
+    "intent": "emergency",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Severe",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.64,
+    "urgency_score": 0.55,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_191",
+    "language": "en",
+    "text_original": "Garbage not collected for 1 week",
+    "text_english": "Garbage not collected for 1 week",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "1 week"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.71,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_192",
+    "language": "kn",
+    "text_original": "10 ದಿನಯಿಂದ ಕಸ ತೆಗೆದಿಲ್ಲ",
+    "text_english": "Garbage not collected for 10 days",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Garbage",
+      "duration": "10 days"
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.84,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_193",
+    "language": "en",
+    "text_original": "Complained about water 3 times, no action",
+    "text_english": "Complained about water 3 times, no action",
+    "intent": "escalate_complaint",
+    "department": "BWSSB",
+    "entities": {
+      "issue_type": "Complained",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.6,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_194",
+    "language": "hi",
+    "text_original": "Someone is breaking into the house",
+    "text_english": "Someone is breaking into the house",
+    "intent": "emergency",
+    "department": "Police",
+    "entities": {
+      "issue_type": "Someone",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.94,
+    "urgency_score": 0.3,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_195",
+    "language": "kn",
+    "text_original": "ಮಗುವಿಗೆ ಆ್ಯಂಬುಲೆನ್ಸ್ ಬೇಕು ಬೇಗ ಬನ್ನಿ",
+    "text_english": "Child needs an ambulance immediately",
+    "intent": "emergency",
+    "department": "DMER",
+    "entities": {
+      "issue_type": "Child",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.88,
+    "urgency_score": 0.55,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_196",
+    "language": "kn",
+    "text_original": "ಮಗುವಿಗೆ ಆ್ಯಂಬುಲೆನ್ಸ್ ಬೇಕು ಬೇಗ ಬನ್ನಿ",
+    "text_english": "Child needs an ambulance immediately",
+    "intent": "emergency",
+    "department": "DMER",
+    "entities": {
+      "issue_type": "Child",
+      "duration": null
+    },
+    "emotion": "distress",
+    "distress_score": 0.62,
+    "urgency_score": 0.45,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_197",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಮನೆಯಲ್ಲಿ 10 ದಿನಯಿಂದ ಕರೆಂಟ್ ಇಲ್ಲ",
+    "text_english": "Power cut since 10 days",
+    "intent": "report_issue",
+    "department": "BESCOM",
+    "entities": {
+      "issue_type": "Power",
+      "duration": "10 days"
+    },
+    "emotion": "urgency",
+    "distress_score": 0.3,
+    "urgency_score": 0.74,
+    "anger_score": 0.2,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_198",
+    "language": "en",
+    "text_original": "Streetlight is broken",
+    "text_english": "Streetlight is broken",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Streetlight",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_199",
+    "language": "kn",
+    "text_original": "ಸ್ಟ್ರೀಟ್ ಲೈಟ್ ಹಾಳಾಗಿದೆ",
+    "text_english": "Streetlight is broken",
+    "intent": "report_issue",
+    "department": "BBMP",
+    "entities": {
+      "issue_type": "Streetlight",
+      "duration": null
+    },
+    "emotion": "neutral",
+    "distress_score": 0.1,
+    "urgency_score": 0.1,
+    "anger_score": 0.1,
+    "dialect_note": "synthetic"
+  },
+  {
+    "id": "syn_200",
+    "language": "hi",
+    "text_original": "Ration shop is overcharging",
+    "text_english": "Ration shop is overcharging",
+    "intent": "escalate_complaint",
+    "department": "FOOD_CIVIL",
+    "entities": {
+      "issue_type": "Ration",
+      "duration": null
+    },
+    "emotion": "anger",
+    "distress_score": 0.2,
+    "urgency_score": 0.4,
+    "anger_score": 0.74,
+    "dialect_note": "synthetic"
+  }
+]

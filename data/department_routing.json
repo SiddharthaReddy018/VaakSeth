@@ -1,0 +1,268 @@
+{
+  "intent_to_department": {
+    "water_supply_complaint": "BWSSB",
+    "power_outage": "BESCOM",
+    "road_damage": "BBMP_ROADS",
+    "sanitation_issue": "BBMP_HEALTH",
+    "property_tax": "BBMP_REVENUE",
+    "birth_death_certificate": "BBMP_HEALTH",
+    "ration_card": "FOOD_CIVIL",
+    "land_records": "REVENUE_DEPT",
+    "pension_inquiry": "SOCIAL_WELFARE",
+    "police_complaint": "KSRP",
+    "medical_emergency": "DMER",
+    "general_inquiry": "DPAR",
+    "fire_emergency": "FIRE_DEPT",
+    "seek_safety": "KSRP",
+    "street_light": "BESCOM",
+    "garbage_complaint": "BBMP_HEALTH"
+  },
+  "location_overrides": {
+    "bengaluru": {
+      "intents": {
+        "water_supply_complaint": "BWSSB",
+        "power_outage": "BESCOM",
+        "road_damage": "BBMP_ROADS",
+        "sanitation_issue": "BBMP_HEALTH"
+      }
+    },
+    "mysuru": {
+      "intents": {
+        "water_supply_complaint": "CESC_MYSURU",
+        "power_outage": "CESC_MYSURU"
+      }
+    },
+    "hubballi": {
+      "_comment": "BUG-37 FIX: was 'hubli' — entity list uses 'Hubballi' so key must match",
+      "intents": {
+        "water_supply_complaint": "KUWSDB",
+        "power_outage": "HESCOM"
+      }
+    },
+    "dharwad": {
+      "intents": {
+        "water_supply_complaint": "KUWSDB",
+        "power_outage": "HESCOM"
+      }
+    },
+    "mangaluru": {
+      "intents": {
+        "water_supply_complaint": "MCLM_WATER",
+        "power_outage": "MESCOM"
+      }
+    },
+    "rural": {
+      "intents": {
+        "water_supply_complaint": "RDPR",
+        "road_damage": "PWD",
+        "sanitation_issue": "RDPR"
+      }
+    }
+  },
+  "departments": {
+    "BWSSB": {
+      "name": "Bruhat Bengaluru Water Supply & Sewerage Board",
+      "helpline": "1916",
+      "email": "complaints@bwssb.co.in",
+      "portal": "https://www.bwssb.co.in",
+      "escalation_contacts": [
+        {
+          "name": "Executive Engineer",
+          "phone": "080-22238888"
+        },
+        {
+          "name": "Chief Engineer",
+          "phone": "080-22281530"
+        }
+      ]
+    },
+    "BESCOM": {
+      "name": "Bangalore Electricity Supply Company",
+      "helpline": "1912",
+      "email": "consumer@bescom.co.in",
+      "portal": "https://www.bescom.co.in",
+      "escalation_contacts": [
+        {
+          "name": "Assistant Executive Engineer",
+          "phone": "080-22222222"
+        },
+        {
+          "name": "Superintending Engineer",
+          "phone": "080-22234567"
+        }
+      ]
+    },
+    "BBMP_ROADS": {
+      "name": "BBMP Roads & Infrastructure",
+      "helpline": "080-22975555",
+      "email": "roads@bbmp.gov.in",
+      "portal": "https://bbmp.gov.in",
+      "escalation_contacts": [
+        {
+          "name": "Zonal Commissioner",
+          "phone": "080-22221111"
+        }
+      ]
+    },
+    "BBMP_HEALTH": {
+      "name": "BBMP Health & Sanitation",
+      "helpline": "080-22221155",
+      "email": "health@bbmp.gov.in",
+      "portal": "https://bbmp.gov.in",
+      "escalation_contacts": []
+    },
+    "BBMP_REVENUE": {
+      "name": "BBMP Revenue & Property Tax",
+      "helpline": "080-22660000",
+      "email": "revenue@bbmp.gov.in",
+      "portal": "https://bbmp.gov.in",
+      "escalation_contacts": []
+    },
+    "FOOD_CIVIL": {
+      "name": "Food, Civil Supplies & Consumer Affairs Dept",
+      "helpline": "1967",
+      "email": "fcsca@karnataka.gov.in",
+      "portal": "https://ahara.kar.nic.in",
+      "escalation_contacts": []
+    },
+    "REVENUE_DEPT": {
+      "name": "Revenue Department Karnataka",
+      "helpline": "1800-425-1188",
+      "email": "revenue@karnataka.gov.in",
+      "portal": "https://revenue.kar.nic.in",
+      "escalation_contacts": []
+    },
+    "SOCIAL_WELFARE": {
+      "name": "Social Welfare Department",
+      "helpline": "080-22353626",
+      "email": "swdkar@gmail.com",
+      "portal": "https://sw.kar.nic.in",
+      "escalation_contacts": []
+    },
+    "KSRP": {
+      "name": "Karnataka State Reserve Police / Local Police",
+      "helpline": "100",
+      "email": "dgp@ksp.gov.in",
+      "portal": "https://www.ksp.gov.in",
+      "escalation_contacts": [
+        {
+          "name": "Control Room",
+          "phone": "100"
+        }
+      ]
+    },
+    "DMER": {
+      "name": "Directorate of Medical Education & Research",
+      "helpline": "104",
+      "email": "dmer@karnataka.gov.in",
+      "portal": "https://dmer.karnataka.gov.in",
+      "escalation_contacts": []
+    },
+    "KUWSDB": {
+      "name": "Karnataka Urban Water Supply & Drainage Board",
+      "helpline": "1800-425-1444",
+      "email": "md.kuwsdb@gmail.com",
+      "portal": "https://kuwsdb.karnataka.gov.in",
+      "escalation_contacts": []
+    },
+    "HESCOM": {
+      "name": "Hubli Electricity Supply Company",
+      "helpline": "1912",
+      "email": "consumer@hescom.co.in",
+      "portal": "https://hescom.co.in",
+      "escalation_contacts": []
+    },
+    "MESCOM": {
+      "name": "Mangalore Electricity Supply Company",
+      "helpline": "1912",
+      "email": "info@mescom.co.in",
+      "portal": "https://mescom.co.in",
+      "escalation_contacts": []
+    },
+    "CESC_MYSURU": {
+      "name": "Chamundeshwari Electricity Supply Corp (Mysuru)",
+      "helpline": "1912",
+      "email": "cescmysore@gmail.com",
+      "portal": "https://cescmysore.org",
+      "escalation_contacts": []
+    },
+    "MCLM_WATER": {
+      "name": "Mangaluru City Corporation Water",
+      "helpline": "0824-2220210",
+      "email": "mcc@mangalurumahanagara.com",
+      "portal": "https://mangalurumahanagara.com",
+      "escalation_contacts": []
+    },
+    "RDPR": {
+      "name": "Rural Development & Panchayat Raj",
+      "helpline": "1800-425-0902",
+      "email": "rdprkar@gmail.com",
+      "portal": "https://rdpr.karnataka.gov.in",
+      "escalation_contacts": []
+    },
+    "PWD": {
+      "name": "Public Works Department Karnataka",
+      "helpline": "1800-425-3770",
+      "email": "pwd@karnataka.gov.in",
+      "portal": "https://pwd.karnataka.gov.in",
+      "escalation_contacts": []
+    },
+    "DPAR": {
+      "name": "Dept of Personnel & Administrative Reforms (General Grievance)",
+      "helpline": "1902",
+      "email": "grievance@karnataka.gov.in",
+      "portal": "https://sakala.kar.nic.in",
+      "escalation_contacts": []
+    },
+    "FIRE_DEPT": {
+      "name": "Karnataka Fire and Emergency Services",
+      "helpline": "101",
+      "email": "dfs@karnataka.gov.in",
+      "portal": "https://ksfes.karnataka.gov.in",
+      "escalation_contacts": [
+        {
+          "name": "Fire Control Room",
+          "phone": "101"
+        }
+      ]
+    },
+    "BESCOM_STREET": {
+      "name": "BESCOM Street Lighting Division",
+      "helpline": "1912",
+      "email": "consumer@bescom.co.in",
+      "portal": "https://www.bescom.co.in"
+    }
+  },
+  "department_aliases": {
+    "police": "KSRP",
+    "police helpline": "KSRP",
+    "local police": "KSRP",
+    "ksp": "KSRP",
+    "fire department": "FIRE_DEPT",
+    "fire dept": "FIRE_DEPT",
+    "fire service": "FIRE_DEPT",
+    "fire brigade": "FIRE_DEPT",
+    "bbmp": "BBMP_HEALTH",
+    "bbmp garbage": "BBMP_HEALTH",
+    "bbmp garbage department": "BBMP_HEALTH",
+    "bbmp_garbage": "BBMP_HEALTH",
+    "waste management": "BBMP_HEALTH",
+    "health dept": "BBMP_HEALTH",
+    "health department": "BBMP_HEALTH",
+    "bbmp_health": "BBMP_HEALTH",
+    "bescom": "BESCOM",
+    "bangalore electricity supply company": "BESCOM",
+    "bwssb": "BWSSB",
+    "bwssb customer care": "BWSSB",
+    "water board": "BWSSB",
+    "food_civil": "FOOD_CIVIL",
+    "public distribution system": "FOOD_CIVIL",
+    "pds": "FOOD_CIVIL",
+    "social welfare": "SOCIAL_WELFARE",
+    "dmer": "DMER",
+    "bbmp roads": "BBMP_ROADS",
+    "bbmp_roads": "BBMP_ROADS",
+    "revenue dept": "REVENUE_DEPT",
+    "revenue department": "REVENUE_DEPT"
+  }
+}
