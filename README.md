@@ -253,3 +253,4 @@ VaakSetu aims to bridge the language barrier between citizens and government ser
 * Whisper
 * Flask
 * Open-source AI community
+Minor change in Readme
